@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": ["api/*"],
+      "@app/*": ["app/*"],
+      "@components/*": ["components/*"],
+      "@context/*": ["context/*"],
+      "@models/*": ["models/*"],
+      "@assets/*": ["assets/*"],
+      "@services/*": ["services/*"],
+    }
+  }
+}
